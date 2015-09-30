@@ -2,6 +2,9 @@ package com.training;
 
 public class BankAccount {
 	
+	public void display(){
+		System.out.println("Hello World");
+	}
 	
 	@Override
 	public String toString() {
