@@ -2,6 +2,12 @@ package com.training;
 
 public class BankAccount {
 	
+	
+	@Override
+	public String toString() {
+		return "BankAccount [balance=" + balance + "]";
+	}
+	
 	private double balance=2000;
 
 	public BankAccount() {
